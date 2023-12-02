@@ -1,9 +1,9 @@
 //DATA STRUCTURE
-
+/*
 //an array to contain our product
 //use object to group multiple values together
 const products =[{
-  Image: 'images/products/athletic-cotton-socks-6-pairs.jpg',
+  image: 'images/products/athletic-cotton-socks-6-pairs.jpg',
   name: 'Black and Gray Athletic Cotton Socks - 6 Pairs',
   //rating has 2 properties let also grouped into anothe object
   rating: {
@@ -12,7 +12,7 @@ const products =[{
   },
   priceCents: 1090
 }, {
-  Image: 'images/products/intermediate-composite-basketball.jpg',
+  image: 'images/products/intermediate-composite-basketball.jpg',
   name: 'Intermediate Size Basketball',
   //rating has 2 properties let also grouped into anothe object
   rating: {
@@ -21,7 +21,7 @@ const products =[{
   },
   priceCents: 2095
 },  {
-  Image: 'images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg',
+  image: 'images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg',
   name: 'Adults Plain Cotton T-Shirt - 2 Pack',
   //rating has 2 properties let also grouped into anothe object
   rating: {
@@ -30,6 +30,7 @@ const products =[{
   },
   priceCents: 799
 }];
+*/
 
 
 let productsHTML = '';
@@ -41,7 +42,7 @@ products.forEach((product) => {
     <div class="product-container">
       <div class="product-image-container">
         <img class="product-image"
-          src="${product.Image}">
+          src="${product.image}">
       </div>
 
       <div class="product-name limit-text-to-2-lines">
