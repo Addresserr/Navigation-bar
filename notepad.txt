@@ -1,0 +1,16 @@
+ <!--.channel-pic{
+        display: inline-block;
+        width: 50px;
+        vertical-align: top;
+        background-color: gray;
+      }
+      .vid-info{
+        display: inline-block;
+        width: 245px;
+        background-color: gray;
+      }-->
+replaced by
+.vid-info-grid{
+        display: grid;
+        grid-template-columns: 50px 1fr;
+      }

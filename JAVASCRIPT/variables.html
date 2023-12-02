@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Variables</title>
+  </head>
+  <body>
+    <button onclick="
+      console.log(`cart quality: ${cartQuality}`);
+      ">Show Quality</button>
+
+    <button onclick="
+    //cartQuality=cartQuality+1;
+    //cartQuality+=1;
+    cartQuality++;
+    console.log(`cart quality: ${cartQuality}`);
+    ">Add to Card</button>
+
+    <button onclick="
+    //cartQuality=cartQuality+2;
+    cartQuality+=2;
+    console.log(`cart quality: ${cartQuality}`);
+    ">+2</button>
+
+    <button onclick="
+    cartQuality=cartQuality+3;
+    console.log(`cart quality: ${cartQuality}`);
+    ">+3</button>
+
+    <button onclick="
+    cartQuality=0;
+    console.log('cart was reset.');
+    console.log(`cart quality: ${cartQuality}`);
+    ">Reset Card</button>
+    
+    <script>
+      let cartQuality=0;
+    </script>
+  </body>
+</html>
