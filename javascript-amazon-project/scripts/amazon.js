@@ -1,3 +1,5 @@
+import {cart} from '../data/cart.js';
+
 //DATA STRUCTURE
 /*
 //an array to contain our product
